@@ -4,7 +4,7 @@ import time
 from datetime import datetime, timedelta
 
 # Masukkan API Token kamu di sini
-UBIDOTS_TOKEN = ""
+UBIDOTS_TOKEN = st.secrets["UBIDOTS_TOKEN"]
 DEVICE_LABEL = "ESP32-SIC6"
 
 def get_data(variable):
